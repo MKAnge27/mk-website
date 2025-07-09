@@ -6,7 +6,7 @@ export default function Home() {
       <>
         <main className="px-5 md:mt-[10%]">
           <h1 className="md:text-right font-semibold text-2xl text-white">Michel Kanga</h1>
-          <p className="md:text-right mt-2 text-white">I like to build things -- mostly software ;).</p>
+          <p className="md:text-right mt-2 text-white">I like to build things -- mostly software.</p>
           <p className="md:text-right text-white">
             previously at <Link href="https://ciandt.com" className="underline">CI&T</Link>
           </p>
