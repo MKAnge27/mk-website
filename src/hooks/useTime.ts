@@ -19,12 +19,11 @@ function useTime(refreshRate: number) {
             clearInterval(interval);
         }
     }, [refreshRate]);
-
     const currentTime = useMemo(() => {
         return new Intl.DateTimeFormat("en-US", {
             hour: "2-digit",
             minute: "2-digit",
-            hour12: false,
+            hour12: true,
         }).format(value);
     }, [value]);
 
