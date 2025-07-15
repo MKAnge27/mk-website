@@ -15,7 +15,7 @@ export default function Home() {
             <ul>
               <li className="ml-6">tech</li>
               <li className="ml-6">cloud & api</li>
-              <li className="ml-6">f1</li>
+              <li className="ml-6">f1 & reading</li>
               <li className="ml-6">football</li>
               <li className="ml-6">going to the gym</li>
               <li className="ml-6">anime and memes</li>
